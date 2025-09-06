@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Tourism</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+    header {
+      background: #0077b6;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background: #023e8a;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    .container {
+      padding: 20px;
+    }
+    .place-card {
+      background: white;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .place-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    button {
+      background: #0077b6;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background: #023e8a;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌍 Explore Tourism</h1>
+    <p>Your guide to the most beautiful places</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Destinations</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="place-card">
+      <h2>🏞 Taj Mahal, India</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg" alt="Taj Mahal">
+      <p>The Taj Mahal, an ivory-white marble mausoleum, is one of the world's greatest wonders and a UNESCO World Heritage site.</p>
+      <button onclick="alert('Taj Mahal added to your wishlist!')">Add to Wishlist</button>
+    </div>
+
+    <div class="place-card">
+      <h2>🏖 Maldives</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Maldives_Beach.jpg" alt="Maldives">
+      <p>Famous for crystal-clear waters, white sandy beaches, and luxury resorts, the Maldives is a tropical paradise.</p>
+      <button onclick="alert('Maldives added to your wishlist!')">Add to Wishlist</button>
+    </div>
+
+    <div class="place-card">
+      <h2>🏔 Switzerland</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Zermatt_Switzerland.jpg" alt="Switzerland">
+      <p>Known for its Alps, scenic beauty, and adventurous skiing, Switzerland is a dream destination for travelers.</p>
+      <button onclick="alert('Switzerland added to your wishlist!')">Add to Wishlist</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Explore Tourism | Designed by You</p>
+  </footer>
+
+</body>
+</html>
